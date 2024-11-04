@@ -8,24 +8,13 @@
 }
 body {
   background-image: url(visuals/background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
   font-family: "HelveticaNeueLtArabic";
   display: grid;
   font-size: 16px;
-  width: 1024px;
+  width: 100%;
 }
-/* @media (max-width: 768px) {
-  body {
-    width: 70%;
-    font-size: 70%;
-  }
-}
-
-@media (max-width: 425px) {
-  body {
-    width: 50%;
-    font-size: 50%;
-  }
-} */
 div {
   text-align: justify;
   text-justify: inter-word;
@@ -537,4 +526,30 @@ footer img {
 .rise {
   position: relative;
   bottom: 250px;
+}
+@media (max-width: 768px) {
+  body {
+    width: 100%; /* Maintain full width */
+    font-size: 85%; /* Slightly reduce font size */
+  }
+  .title {
+    font-size: 85%; /* Adjust font size for readability */
+    line-height: 1.2;
+  }
+  .Center {
+    padding: 0 10%; /* Ensure content is centered */
+  }
+}
+@media (max-width: 425px) {
+  body {
+    width: 100%; /* Maintain full width */
+    font-size: 75%; /* Further reduce font size for readability */
+  }
+  .title {
+    font-size: 75%; /* Adjust font size for readability */
+    line-height: 1.2;
+  }
+  .Center {
+    padding: 0 5%; /* Ensure content is centered */
+  }
 }
