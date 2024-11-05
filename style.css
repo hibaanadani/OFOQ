@@ -8,17 +8,20 @@
 }
 body {
   background-image: url(visuals/background.jpg);
+  background-size: cover;
+}
+.Container {
   font-family: "HelveticaNeueLtArabic";
   display: grid;
   font-size: 16px;
   width: 100%;
-}
-div {
   text-align: justify;
-  text-justify: inter-word;
 }
+
 .Center {
-  padding: 0% 30% 0% 10%;
+  place-items: center;
+  text-align: justify;
+  /* text-align-last: justify; */
 }
 .introImages {
   background-color: #e97a62;
@@ -121,7 +124,7 @@ p {
   border-radius: 50%;
   left: 180px;
   position: relative;
-  bottom: 100px;
+  bottom: 80px;
   overflow: visible;
 }
 .takeofimage img {
@@ -134,7 +137,7 @@ p {
 }
 .takeoftitle {
   position: relative;
-  bottom: 150px;
+  bottom: 120px;
   height: 450px;
 }
 .takeof {
@@ -148,15 +151,14 @@ p {
 #seperator {
   border-top: 1px solid;
   width: 400px;
-  margin-right: 0;
 }
 .whoweare {
   background-color: #aac4d0;
   padding: 50px;
-  height: 455px;
+  height: 400px;
 }
 .whowearetitle {
-  padding-right: 32%;
+  padding-bottom: 20px;
 }
 .ourway {
   align-items: center;
@@ -165,6 +167,7 @@ p {
 }
 .glasses {
   display: flex;
+  justify-content: center;
   align-items: center;
 }
 .glasses img {
@@ -172,7 +175,7 @@ p {
   width: 400px;
   height: 100px;
   top: 10px;
-  left: 70px;
+  left: 50px;
 }
 .successstop {
   padding-top: 20px;
@@ -193,7 +196,7 @@ p {
   position: relative;
   height: 470px;
   bottom: 230px;
-  right: 550px;
+  right: 325px;
 }
 .boothimages1 .boothimages2 {
   display: flex;
@@ -227,10 +230,10 @@ p {
 }
 .specialconsultaion2 {
   position: relative;
-  right: 150px;
+  right: 65px;
   bottom: 375px;
   height: fit-content;
-  width: 400px;
+  /* width: 400px; */
 }
 .motivationimages {
   display: flex;
@@ -277,7 +280,7 @@ p {
 }
 #orangebulb {
   position: relative;
-  right: 200px;
+  right: 150px;
   bottom: 360px;
   width: 435.699px;
   height: 434.642px;
@@ -349,7 +352,7 @@ ul.achievementlist li::before {
 }
 #rotate {
   position: relative;
-  right: 500px;
+  right: 450px;
   bottom: 650px;
   transform: rotate(270deg);
   width: fit-content;
@@ -363,7 +366,7 @@ ul.achievementlist li::before {
   width: 150px;
   border-radius: 50%;
   border: 1px solid #e97a62;
-  right: 300px;
+  right: 120px;
   top: 10px;
 }
 #endhand {
@@ -384,13 +387,14 @@ ul.achievementlist li::before {
 #nationdaytext {
   position: relative;
   bottom: 140px;
-  right: 5px;
+  left: 250px;
   font-size: 22px;
   font-weight: bold;
 }
 footer {
-  margin-top: 25px;
+  background: none;
   display: flex;
+  text-align: center;
   justify-content: center; /* Center align the footer content */
   align-items: center; /* Center align items vertically */
   gap: 20px; /* Add space between items */
@@ -462,50 +466,46 @@ footer img {
 #bold {
   font-weight: bold;
 }
-#centered {
-  padding-right: 5%;
-}
 #imageschunk {
-  width: 665px;
+  /* width: 665px; */
   position: relative;
   bottom: 250px;
   height: fit-content;
 }
 .imageschunk {
-  height: 2750px;
+  height: 4000px;
 }
 #hard1 {
   height: 650px;
   width: 650px;
   position: relative;
-  left: 100px;
   bottom: 100px;
 }
 .textunder {
   position: relative;
-  width: 252px;
-  bottom: 575px;
-  right: 25px;
+  bottom: 650px;
+  left: 290px;
 }
 .textabove {
   position: relative;
   width: 250px;
   height: 200px;
-  top: 300px;
-  right: 450px !important;
+  top: 500px;
+  right: 300px !important;
 }
 .textabove p {
-  font-size: 30px;
+  font-size: 40px;
   margin: 0px 0px;
 }
 .textunder p {
-  font-size: 35px;
+  font-size: 65px;
+  font-weight: bold;
   margin: 2px;
 }
 .under {
   position: relative;
   bottom: 320px;
-  right: 300px;
+  right: 400px;
   height: min-content;
   width: fit-content;
 }
@@ -516,6 +516,7 @@ footer img {
 .above {
   position: relative;
   top: 50px;
+  right: 100px;
 }
 .above p {
   margin: -10px 0;
@@ -525,15 +526,20 @@ footer img {
   position: relative;
   bottom: 250px;
 }
+@media (max-width: 1024px) {
+  .Center {
+    padding: 0 20% 0 10%; /* Ensure content is centered */
+  }
+}
 @media (max-width: 768px) {
   body {
     width: 100%; /* Maintain full width */
     font-size: 85%; /* Slightly reduce font size */
   }
-  .title {
-    font-size: 85%; /* Adjust font size for readability */
-    line-height: 1.2;
-  }
+  /* .title {
+    font-size: 85%; Adjust font size for readability */
+  /* line-height: 1.2;
+  } */
   .Center {
     padding: 0 10%; /* Ensure content is centered */
   }
@@ -543,10 +549,10 @@ footer img {
     width: 100%; /* Maintain full width */
     font-size: 75%; /* Further reduce font size for readability */
   }
-  .title {
+  /* .title {
     font-size: 75%; /* Adjust font size for readability */
-    line-height: 1.2;
-  }
+  /* line-height: 1.2;
+  }  */
   .Center {
     padding: 0 5%; /* Ensure content is centered */
   }
