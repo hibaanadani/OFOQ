@@ -526,13 +526,3 @@ footer img {
   position: relative;
   bottom: 250px;
 }
-@media (max-width: 768px) {
-  .Container {
-    width: 40%; /* Maintain full width */
-    font-size: 85%; /* Slightly reduce font size */
-  }
-  /* .title {
-    font-size: 85%; Adjust font size for readability */
-  /* line-height: 1.2;
-  } */
-}
