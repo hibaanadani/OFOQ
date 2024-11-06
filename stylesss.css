@@ -445,3 +445,9 @@ footer img {
   height: 45.7vw; /* Responsive height */
   bottom: 15vw; /* Responsive positioning */
 }
+#imageschunk {
+  width: 90vw;
+}
+#hard1 {
+  width: 50vw;
+}
