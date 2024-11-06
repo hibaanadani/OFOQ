@@ -14,7 +14,6 @@ body {
 .Container {
   font-family: "HelveticaNeueLtArabic";
   display: grid;
-  font-size: 16px;
   width: 100%;
   text-align: justify;
 }
@@ -29,8 +28,8 @@ body {
   border-radius: 50%;
   display: flex;
   position: relative;
-  left: 5vw;
-  bottom: 5vw;
+  left: 2vw;
+  bottom: 2vw;
 }
 .characterimage {
   background-color: #aac4d0;
@@ -40,32 +39,29 @@ body {
   display: flex;
   position: relative;
   right: 10vw;
-  top: 20vw;
+  top: 16vw;
 }
 #firstImage {
   position: relative;
   display: flex;
-  bottom: 35vw;
-  left: 15vw;
-  width: 50vw;
-  height: 70vw;
+  bottom: 20vw;
+  left: 8vw;
+  width: 40vw;
+  height: 45vw;
 }
 .logoimage {
   position: relative;
   display: flex;
-  width: auto;
   right: 10vw;
-  top: 10vw;
-  height: 40vw;
-  width: 10vw;
+  top: 5vw;
+  height: 30vw;
 }
 .ofoqtitle {
   position: relative;
   width: auto;
-  bottom: 10vw;
-  right: 5vw;
-  width: 60vw;
-  height: 25vw;
+  bottom: 6vw;
+  right: 3vw;
+  width: 40vw;
 }
 .colorwhite {
   color: white;
@@ -87,13 +83,12 @@ p {
 }
 .intro {
   position: relative;
-  right: 5vw;
-  top: 4vw;
+  right: 25vw;
+  top: 3vw;
   width: fit-content;
   font-weight: bold;
 }
 .hello {
-  height: 50vw;
   background-image: url(visuals/hand.png);
   background-repeat: no-repeat;
 }
@@ -109,7 +104,7 @@ p {
 }
 .takeoftext {
   position: relative;
-  right: 25vw;
+  right: 10vw;
   width: fit-content;
 }
 .takeoftext p {
@@ -129,7 +124,7 @@ p {
 .takeofimage img {
   display: block;
   position: absolute;
-  top: -6vw;
+  top: -4.5vw;
   right: 5vw;
   width: 40vw;
   height: 33vw;
@@ -139,29 +134,26 @@ p {
   bottom: 12vw;
   height: 45vw;
 }
-.takeof {
-  height: 80vw;
-}
+
 .title {
-  font-size: 3.5vw;
+  font-size: 3vw;
   line-height: 3.6vw;
   font-weight: bolder;
 }
 #seperator {
   border-top: 1px solid;
-  width: 40vw;
+  width: 35vw;
 }
 .whoweare {
   background-color: #aac4d0;
   padding: 5vw;
-  height: 40vw;
+  /* height: 40vw; */
 }
 .whowearetitle {
   padding-bottom: 2vw;
 }
 .ourway {
   align-items: center;
-  height: 61vw;
   background-color: #e97a62;
 }
 .glasses {
@@ -179,11 +171,11 @@ p {
 .successstop {
   padding-top: 2vw;
   background-color: #aac4d0;
-  height: 35vw;
+  height: 30vw;
 }
 #servicesimg {
   height: 10vw;
-  width: 54vw;
+  width: 50vw;
 }
 #servicestext {
   position: relative;
@@ -195,7 +187,7 @@ p {
   position: relative;
   height: 47vw;
   bottom: 23vw;
-  right: 32.5vw;
+  right: 36vw;
 }
 .boothimages1 .boothimages2 {
   display: flex;
@@ -452,8 +444,4 @@ footer img {
   width: 47vw; /* Responsive width */
   height: 45.7vw; /* Responsive height */
   bottom: 15vw; /* Responsive positioning */
-}
-
-.inspirationstop {
-  height: 75vw; /* Responsive height */
 }
