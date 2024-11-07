@@ -467,13 +467,13 @@ footer img {
   font-weight: bold;
 }
 #imageschunk {
-  /* width: 665px; */
+  width: 786px;
   position: relative;
   bottom: 250px;
   height: fit-content;
 }
 .imageschunk {
-  height: 4000px;
+  height: 3120px;
 }
 #hard1 {
   height: 650px;
@@ -483,22 +483,22 @@ footer img {
 }
 .textunder {
   position: relative;
-  bottom: 650px;
-  left: 290px;
+  bottom: 625px;
+  left: 225px;
 }
 .textabove {
   position: relative;
   width: 250px;
   height: 200px;
-  top: 500px;
-  right: 300px !important;
+  top: 390px;
+  right: 235px !important;
 }
 .textabove p {
   font-size: 40px;
   margin: 0px 0px;
 }
 .textunder p {
-  font-size: 65px;
+  font-size: 55px;
   font-weight: bold;
   margin: 2px;
 }
