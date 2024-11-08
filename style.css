@@ -315,10 +315,10 @@ ul {
   background-image: url(visuals/bluebulb.png);
   background-repeat: no-repeat;
   background-size: contain;
-  height: 38vw;
+  height: 45vw;
 }
 .diamondtriptext {
-  height: 35vw;
+  height: auto;
 }
 #orangebulb {
   position: relative;
@@ -384,7 +384,7 @@ ul {
 #achievemntimage {
   position: relative;
   left: 8.5vw; /* Responsive positioning */
-  bottom: 32.5vw; /* Responsive positioning */
+  bottom: 33.5vw; /* Responsive positioning */
   height: 60.1vw; /* Responsive height */
   width: 65.7vw; /* Responsive width */
 }
