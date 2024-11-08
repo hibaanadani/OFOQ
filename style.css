@@ -65,10 +65,10 @@ body {
 }
 .ofoqtitle {
   position: relative;
-  bottom: 3vw; /* Responsive positioning */
-  right: 3vw; /* Responsive positioning */
-  width: 45vw; /*Responsive width*/
-  height: 18vw; /*Responsive height*/
+  bottom: 7vw; /* Responsive positioning */
+  right: 1vw; /* Responsive positioning */
+  width: 50vw; /*Responsive width*/
+  height: 20vw; /*Responsive height*/
 }
 
 .colorwhite {
@@ -95,6 +95,9 @@ p {
   margin-bottom: 10px;
   font-size: 2.5vw;
 }
+ul {
+  font-size: 2.5vw;
+}
 .intro {
   position: relative;
   right: 40vw; /* Responsive positioning */
@@ -107,6 +110,9 @@ p {
   padding-bottom: 6vw; /* Responsive height */
   background-image: url(visuals/hand.png);
   background-repeat: no-repeat;
+  background-position: bottom left;
+  background-size: 33vw;
+  background-position-y: 15vw;
 }
 #handbackground {
   position: relative;
@@ -158,7 +164,7 @@ p {
 
 .title {
   font-size: 3.5vw; /* Responsive font size */
-  line-height: 3.6vw; /* Responsive line height */
+  line-height: 3vw; /* Responsive line height */
   font-weight: bolder;
 }
 #seperator {
@@ -201,8 +207,8 @@ p {
 }
 
 #servicesimg {
-  height: 4vw; /* Responsive height */
-  width: 28vw; /* Responsive width */
+  height: 5vw; /* Responsive height */
+  width: 30vw; /* Responsive width */
 }
 
 #servicestext {
@@ -216,7 +222,7 @@ p {
   position: relative;
   height: 32vw; /* Responsive height */
   bottom: 15vw; /* Responsive positioning */
-  right: 17.5vw; /* Responsive positioning */
+  right: 20.5vw; /* Responsive positioning */
 }
 .boothimages1 .boothimages2 {
   display: flex;
@@ -244,24 +250,29 @@ p {
   height: 17.3vw; /* Responsive height */
 }
 .specialconsultaion {
-  height: 29.6vw; /* Responsive height */
   background-color: #1d4b5e;
+  height: 45vw;
 }
-
 .specialconsultaion1 {
   position: relative;
   z-index: 1;
-  bottom: 10.5vw; /* Responsive positioning */
+  bottom: 6vw; /* Responsive positioning */
+  width: 100%; /* Make the image take up the full width of its container */
+  max-width: 100%; /* Ensure it does not exceed its container's width */
 }
-
 .specialconsultaion2 {
   position: relative;
-  right: -3vw; /* Responsive positioning */
-  bottom: 46.5vw; /* Responsive positioning */
-  height: 22.4vw;
-  width: 35vw;
+  right: 9vw; /* Responsive positioning */
+  bottom: 49vw; /* Responsive positioning */
+  width: 100%; /* Make the image take up the full width of its container */
+  max-width: 70%; /* Ensure it does not exceed its container's width */
+} /* Ensure images within these sections are fully responsive */
+.specialconsultaion img,
+.specialconsultaion1 img,
+.specialconsultaion2 img {
+  width: 100%;
+  height: auto; /* Maintain aspect ratio */
 }
-
 .motivationimages {
   display: flex;
   gap: 1.2vw; /* Responsive gap */
@@ -306,14 +317,16 @@ p {
   background-color: #aac4d0;
   background-image: url(visuals/bluebulb.png);
   background-repeat: no-repeat;
+  background-size: contain;
+  height: 55vw;
 }
 .diamondtriptext {
   height: 47vw;
 }
 #orangebulb {
   position: relative;
-  right: 15vw; /* Responsive positioning */
-  bottom: 36vw; /* Responsive positioning */
+  right: 26vw; /* Responsive positioning */
+  bottom: 44vw; /* Responsive positioning */
   width: 43.5vw; /* Responsive width */
   height: 43.5vw; /* Responsive height */
 }
@@ -321,9 +334,9 @@ p {
   margin: 1vw; /* Responsive margin */
   display: grid;
   place-items: center;
-  height: 15vw; /* Responsive height */
-  width: 15vw; /* Responsive width */
-  border-radius: 80%;
+  height: 19vw; /* Responsive height */
+  width: 19vw; /* Responsive width */
+  border-radius: 50%;
   background-color: #e97a62;
   color: #1d4b5e;
 }
@@ -332,10 +345,10 @@ p {
 .circleblue2,
 .circleblue3 {
   position: relative;
-  height: 10vw; /* Responsive height */
-  width: 10vw; /* Responsive width */
-  border-radius: 80%;
-  border: 1px solid #1d4b5e;
+  height: 11vw; /* Responsive height */
+  width: 11vw; /* Responsive width */
+  border-radius: 50%;
+  border: 2px solid #1d4b5e;
 }
 
 .circleblue1 {
@@ -344,8 +357,8 @@ p {
 
 .circleblue2 {
   z-index: -1;
-  bottom: 12.5vw; /* Responsive positioning */
-  left: 3.5vw; /* Responsive positioning */
+  bottom: 16.5vw; /* Responsive positioning */
+  left: 4.5vw; /* Responsive positioning */
 }
 
 .circleblue3 {
@@ -355,7 +368,7 @@ p {
 }
 
 .standout {
-  height: 130vw; /* Responsive height */
+  height: 140vw; /* Responsive height */
 }
 
 .standoutvision {
@@ -374,7 +387,7 @@ p {
 #achievemntimage {
   position: relative;
   left: 8.5vw; /* Responsive positioning */
-  bottom: 41vw; /* Responsive positioning */
+  bottom: 44vw; /* Responsive positioning */
   height: 60.1vw; /* Responsive height */
   width: 65.7vw; /* Responsive width */
 }
@@ -390,7 +403,7 @@ ul.achievementlist li::before {
 #rotate {
   position: relative;
   right: 45vw; /* Responsive positioning */
-  bottom: 65vw; /* Responsive positioning */
+  bottom: 75vw; /* Responsive positioning */
   transform: rotate(270deg);
   width: fit-content;
 }
@@ -405,7 +418,7 @@ ul.achievementlist li::before {
   border-radius: 50%;
   border: 1px solid #e97a62;
   right: 12vw; /* Responsive positioning */
-  top: 1vw; /* Responsive positioning */
+  top: 4vw; /* Responsive positioning */
 }
 
 #endhand {
@@ -433,30 +446,6 @@ ul.achievementlist li::before {
   font-weight: bold;
 }
 
-footer {
-  background: none;
-  display: flex;
-  text-align: center;
-  justify-content: center; /* Center align the footer content */
-  align-items: center; /* Center align items vertically */
-  gap: 2vw; /* Responsive gap */
-  padding: 1vw 2vw; /* Responsive padding */
-  direction: ltr;
-}
-
-footer p,
-footer a {
-  display: flex;
-  align-items: center; /* Align text and icon vertically */
-  text-decoration: none; /* Remove underline from links */
-  color: inherit; /* Ensure links have the same color as the text */
-}
-
-footer img {
-  margin-left: 0.5vw; /* Responsive margin */
-  width: 2vw; /* Responsive width */
-  height: auto; /* Maintain aspect ratio */
-}
 .valueslist {
   list-style-type: none;
   padding-right: 0px;
@@ -516,7 +505,7 @@ footer img {
 }
 
 .imageschunk {
-  height: 370vw; /* Adjust height if needed */
+  height: 330vw; /* Adjust height if needed */
 }
 
 #hard1 {
@@ -536,8 +525,8 @@ footer img {
   position: relative;
   width: 25vw; /* Responsive width */
   height: 20vw; /* Responsive height */
-  top: 39vw; /* Responsive positioning */
-  right: 23.5vw !important; /* Responsive positioning */
+  top: 41vw; /* Responsive positioning */
+  right: 19.5vw !important; /* Responsive positioning */
 }
 
 .textabove p {
@@ -548,7 +537,7 @@ footer img {
 .textunder p {
   font-size: 5.5vw; /* Responsive font size */
   font-weight: bold;
-  margin: 2px;
+  margin: 20px;
 }
 
 .under {
@@ -578,4 +567,32 @@ footer img {
 .rise {
   position: relative;
   bottom: 25vw; /* Responsive positioning */
+}
+.ready {
+  height: 43vw;
+}
+footer {
+  background: none;
+  display: flex;
+  text-align: center;
+  justify-content: center; /* Center align the footer content */
+  align-items: center; /* Center align items vertically */
+  gap: 2vw; /* Responsive gap */
+  padding: 1vw 2vw; /* Responsive padding */
+  direction: ltr;
+}
+
+footer p,
+footer a {
+  display: flex;
+  align-items: center; /* Align text and icon vertically */
+  text-decoration: none; /* Remove underline from links */
+  color: inherit; /* Ensure links have the same color as the text */
+  font-size: 2.5vw;
+}
+
+footer img {
+  margin-left: 0.5vw; /* Responsive margin */
+  width: 2vw; /* Responsive width */
+  height: auto; /* Maintain aspect ratio */
 }
