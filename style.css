@@ -460,6 +460,7 @@ ul.achievementlist li::before {
   padding-right: 5vw; /* Responsive padding */
   background-repeat: no-repeat;
   background-position: right center;
+  background-size: contain; /* Ensures the background image scales to fit the container */
 }
 
 .valueslist .li1 {
@@ -480,6 +481,20 @@ ul.achievementlist li::before {
 
 .valueslist .li5 {
   background-image: url("visuals/socialicon.png");
+}
+
+/* Media Queries for Tablet */
+@media (max-width: 1440px) {
+  .valueslist li {
+    background-size: 30px; /* Adjust background size for tablets */
+  }
+}
+
+/* Media Queries for Mobile */
+@media (max-width: 768px) {
+  .valueslist li {
+    background-size: 20px; /* Adjust background size for mobile */
+  }
 }
 
 .listcontainer {
