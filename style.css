@@ -298,7 +298,6 @@ ul {
   height: 47.7vw; /* Responsive height */
   position: relative;
 }
-
 .excellenceimages {
   display: flex;
   gap: 1vw; /* Responsive gap */
@@ -315,7 +314,7 @@ ul {
   background-image: url(visuals/bluebulb.png);
   background-repeat: no-repeat;
   background-size: contain;
-  height: 45vw;
+  height: 52vw;
 }
 .diamondtriptext {
   height: auto;
@@ -554,7 +553,7 @@ ul.achievementlist li::before {
 
 .under {
   position: relative;
-  bottom: 28vw; /* Responsive positioning */
+  bottom: 32vw; /* Responsive positioning */
   right: 40vw; /* Responsive positioning */
   height: min-content;
   width: fit-content;
