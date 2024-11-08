@@ -113,6 +113,7 @@ ul {
   background-position: bottom left;
   background-size: 33vw;
   background-position-y: 15vw;
+  background-position-x: -14vw;
 }
 #handbackground {
   position: relative;
@@ -224,20 +225,26 @@ ul {
   bottom: 15vw; /* Responsive positioning */
   right: 20.5vw; /* Responsive positioning */
 }
-.boothimages1 .boothimages2 {
-  display: flex;
+.boothimages {
+  flex-wrap: wrap;
   gap: 1.2vw; /* Responsive gap */
+  justify-content: space-between;
 }
 
-.boothimages1 .boothimages2 img {
-  width: 13vw; /* Responsive width */
-  height: 13vw; /* Responsive height */
-  flex: 1;
+.boothimages1,
+.boothimages2,
+.boothimages3 {
+  display: flex;
 }
 
-.boothimages3 img {
-  width: 41.2vw; /* Responsive width */
-  height: 13vw; /* Responsive height */
+/* Ensure the images scale down properly */
+.boothimages1 img,
+.boothimages2 img,
+.boothimages3 img,
+#widerimage {
+  width: 100%;
+  max-width: 100%;
+  height: 17.5vw; /* Maintain aspect ratio */
 }
 
 .learningimages {
@@ -256,14 +263,14 @@ ul {
 .specialconsultaion1 {
   position: relative;
   z-index: 1;
-  bottom: 6vw; /* Responsive positioning */
+  bottom: 5vw; /* Responsive positioning */
   width: 100%; /* Make the image take up the full width of its container */
   max-width: 100%; /* Ensure it does not exceed its container's width */
 }
 .specialconsultaion2 {
   position: relative;
   right: 9vw; /* Responsive positioning */
-  bottom: 49vw; /* Responsive positioning */
+  bottom: 48vw; /* Responsive positioning */
   width: 100%; /* Make the image take up the full width of its container */
   max-width: 70%; /* Ensure it does not exceed its container's width */
 } /* Ensure images within these sections are fully responsive */
@@ -283,9 +290,6 @@ ul {
   height: 17.3vw; /* Responsive height */
 }
 
-#widerimage {
-  width: 27.15vw; /* Responsive width */
-}
 .appreciationimages {
   display: flex;
 }
