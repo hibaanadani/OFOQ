@@ -11,6 +11,7 @@
 body {
   background-image: url(visuals/background.jpg);
   background-size: cover;
+  margin: 0;
 }
 .Container {
   font-family: "HelveticaNeueLtArabic";
@@ -65,10 +66,10 @@ body {
 }
 .ofoqtitle {
   position: relative;
-  bottom: 7vw; /* Responsive positioning */
+  bottom: 12vw; /* Responsive positioning */
   right: 1vw; /* Responsive positioning */
-  width: 50vw; /*Responsive width*/
-  height: 20vw; /*Responsive height*/
+  width: 70vw; /*Responsive width*/
+  height: 30vw; /*Responsive height*/
 }
 
 .colorwhite {
@@ -270,7 +271,7 @@ ul {
 .specialconsultaion2 {
   position: relative;
   right: 9vw; /* Responsive positioning */
-  bottom: 48vw; /* Responsive positioning */
+  bottom: 50vw; /* Responsive positioning */
   width: 100%; /* Make the image take up the full width of its container */
   max-width: 70%; /* Ensure it does not exceed its container's width */
 } /* Ensure images within these sections are fully responsive */
@@ -322,7 +323,7 @@ ul {
   background-image: url(visuals/bluebulb.png);
   background-repeat: no-repeat;
   background-size: contain;
-  height: 55vw;
+  height: 54vw;
 }
 .diamondtriptext {
   height: 47vw;
@@ -352,7 +353,7 @@ ul {
   height: 11vw; /* Responsive height */
   width: 11vw; /* Responsive width */
   border-radius: 50%;
-  border: 2px solid #1d4b5e;
+  border: 1px solid #1d4b5e;
 }
 
 .circleblue1 {
@@ -361,13 +362,13 @@ ul {
 
 .circleblue2 {
   z-index: -1;
-  bottom: 16.5vw; /* Responsive positioning */
+  bottom: 18.5vw; /* Responsive positioning */
   left: 4.5vw; /* Responsive positioning */
 }
 
 .circleblue3 {
   z-index: -1;
-  bottom: 3vw; /* Responsive positioning */
+  bottom: 7vw; /* Responsive positioning */
   right: 2.5vw; /* Responsive positioning */
 }
 
@@ -521,7 +522,7 @@ ul.achievementlist li::before {
 
 .textunder {
   position: relative;
-  bottom: 62.5vw; /* Responsive positioning */
+  bottom: 65.5vw; /* Responsive positioning */
   left: 22.5vw; /* Responsive positioning */
 }
 
