@@ -400,7 +400,7 @@ ul.achievementlist li::before {
 #rotate {
   position: relative;
   right: 45vw; /* Responsive positioning */
-  bottom: 75vw; /* Responsive positioning */
+  bottom: 60vw; /* Responsive positioning */
   transform: rotate(270deg);
   width: fit-content;
 }
