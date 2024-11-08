@@ -315,10 +315,10 @@ ul {
   background-image: url(visuals/bluebulb.png);
   background-repeat: no-repeat;
   background-size: contain;
-  height: 53vw;
+  height: 38vw;
 }
 .diamondtriptext {
-  height: 50vw;
+  height: 35vw;
 }
 #orangebulb {
   position: relative;
@@ -437,7 +437,7 @@ ul.achievementlist li::before {
 
 #nationdaytext {
   position: relative;
-  bottom: 14vw; /* Responsive positioning */
+  bottom: 11vw; /* Responsive positioning */
   left: 25vw; /* Responsive positioning */
   font-size: 2.2vw; /* Responsive font size */
   font-weight: bold;
