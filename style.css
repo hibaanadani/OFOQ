@@ -268,16 +268,8 @@ ul {
   width: 100%; /* Make the image take up the full width of its container */
   max-width: 100%; /* Ensure it does not exceed its container's width */
 }
-.specialconsultaion2 {
-  position: relative;
-  right: 9vw; /* Responsive positioning */
-  bottom: 50vw; /* Responsive positioning */
-  width: 100%; /* Make the image take up the full width of its container */
-  max-width: 70%; /* Ensure it does not exceed its container's width */
-} /* Ensure images within these sections are fully responsive */
 .specialconsultaion img,
-.specialconsultaion1 img,
-.specialconsultaion2 img {
+.specialconsultaion1 img {
   width: 100%;
   height: auto; /* Maintain aspect ratio */
 }
