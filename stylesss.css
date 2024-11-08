@@ -65,10 +65,10 @@ body {
 }
 .ofoqtitle {
   position: relative;
-  bottom: 3vw; /* Responsive positioning */
-  right: 3vw; /* Responsive positioning */
-  width: 45vw; /*Responsive width*/
-  height: 18vw; /*Responsive height*/
+  bottom: 7vw; /* Responsive positioning */
+  right: 1vw; /* Responsive positioning */
+  width: 50vw; /*Responsive width*/
+  height: 20vw; /*Responsive height*/
 }
 
 .colorwhite {
@@ -95,6 +95,9 @@ p {
   margin-bottom: 10px;
   font-size: 2.5vw;
 }
+ul {
+  font-size: 2.5vw;
+}
 .intro {
   position: relative;
   right: 40vw; /* Responsive positioning */
@@ -107,6 +110,8 @@ p {
   padding-bottom: 6vw; /* Responsive height */
   background-image: url(visuals/hand.png);
   background-repeat: no-repeat;
+  background-position: bottom left;
+  background-size: 33vw;
 }
 #handbackground {
   position: relative;
@@ -216,7 +221,7 @@ p {
   position: relative;
   height: 32vw; /* Responsive height */
   bottom: 15vw; /* Responsive positioning */
-  right: 17.5vw; /* Responsive positioning */
+  right: 20.5vw; /* Responsive positioning */
 }
 .boothimages1 .boothimages2 {
   display: flex;
@@ -306,14 +311,15 @@ p {
   background-color: #aac4d0;
   background-image: url(visuals/bluebulb.png);
   background-repeat: no-repeat;
+  background-size: contain;
 }
 .diamondtriptext {
-  height: 47vw;
+  height: 50vw;
 }
 #orangebulb {
   position: relative;
-  right: 15vw; /* Responsive positioning */
-  bottom: 36vw; /* Responsive positioning */
+  right: 26vw; /* Responsive positioning */
+  bottom: 44vw; /* Responsive positioning */
   width: 43.5vw; /* Responsive width */
   height: 43.5vw; /* Responsive height */
 }
@@ -355,7 +361,7 @@ p {
 }
 
 .standout {
-  height: 130vw; /* Responsive height */
+  height: 140vw; /* Responsive height */
 }
 
 .standoutvision {
@@ -433,30 +439,6 @@ ul.achievementlist li::before {
   font-weight: bold;
 }
 
-footer {
-  background: none;
-  display: flex;
-  text-align: center;
-  justify-content: center; /* Center align the footer content */
-  align-items: center; /* Center align items vertically */
-  gap: 2vw; /* Responsive gap */
-  padding: 1vw 2vw; /* Responsive padding */
-  direction: ltr;
-}
-
-footer p,
-footer a {
-  display: flex;
-  align-items: center; /* Align text and icon vertically */
-  text-decoration: none; /* Remove underline from links */
-  color: inherit; /* Ensure links have the same color as the text */
-}
-
-footer img {
-  margin-left: 0.5vw; /* Responsive margin */
-  width: 2vw; /* Responsive width */
-  height: auto; /* Maintain aspect ratio */
-}
 .valueslist {
   list-style-type: none;
   padding-right: 0px;
@@ -516,7 +498,7 @@ footer img {
 }
 
 .imageschunk {
-  height: 370vw; /* Adjust height if needed */
+  height: 330vw; /* Adjust height if needed */
 }
 
 #hard1 {
@@ -578,4 +560,32 @@ footer img {
 .rise {
   position: relative;
   bottom: 25vw; /* Responsive positioning */
+}
+.ready {
+  height: 43vw;
+}
+footer {
+  background: none;
+  display: flex;
+  text-align: center;
+  justify-content: center; /* Center align the footer content */
+  align-items: center; /* Center align items vertically */
+  gap: 2vw; /* Responsive gap */
+  padding: 1vw 2vw; /* Responsive padding */
+  direction: ltr;
+}
+
+footer p,
+footer a {
+  display: flex;
+  align-items: center; /* Align text and icon vertically */
+  text-decoration: none; /* Remove underline from links */
+  color: inherit; /* Ensure links have the same color as the text */
+  font-size: 2.5vw;
+}
+
+footer img {
+  margin-left: 0.5vw; /* Responsive margin */
+  width: 2vw; /* Responsive width */
+  height: auto; /* Maintain aspect ratio */
 }
