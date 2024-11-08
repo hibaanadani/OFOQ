@@ -209,8 +209,8 @@ ul {
 }
 
 #servicesimg {
-  height: 5vw; /* Responsive height */
-  width: 30vw; /* Responsive width */
+  height: 7vw; /* Responsive height */
+  width: 45vw; /* Responsive width */
 }
 
 #servicestext {
@@ -222,9 +222,9 @@ ul {
 
 #servicesarrow {
   position: relative;
-  height: 32vw; /* Responsive height */
+  height: 40vw; /* Responsive height */
   bottom: 15vw; /* Responsive positioning */
-  right: 20.5vw; /* Responsive positioning */
+  right: 33.5vw; /* Responsive positioning */
 }
 .boothimages {
   flex-wrap: wrap;
@@ -264,7 +264,7 @@ ul {
 .specialconsultaion1 {
   position: relative;
   z-index: 1;
-  bottom: 5vw; /* Responsive positioning */
+  bottom: 6.5vw; /* Responsive positioning */
   width: 100%; /* Make the image take up the full width of its container */
   max-width: 100%; /* Ensure it does not exceed its container's width */
 }
@@ -323,10 +323,10 @@ ul {
   background-image: url(visuals/bluebulb.png);
   background-repeat: no-repeat;
   background-size: contain;
-  height: 54vw;
+  height: 53vw;
 }
 .diamondtriptext {
-  height: 47vw;
+  height: 50vw;
 }
 #orangebulb {
   position: relative;
@@ -368,7 +368,7 @@ ul {
 
 .circleblue3 {
   z-index: -1;
-  bottom: 7vw; /* Responsive positioning */
+  bottom: 3vw; /* Responsive positioning */
   right: 2.5vw; /* Responsive positioning */
 }
 
