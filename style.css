@@ -365,7 +365,7 @@ ul {
 }
 
 .standout {
-  height: 140vw; /* Responsive height */
+  height: 125vw; /* Responsive height */
 }
 
 .standoutvision {
@@ -384,7 +384,7 @@ ul {
 #achievemntimage {
   position: relative;
   left: 8.5vw; /* Responsive positioning */
-  bottom: 44vw; /* Responsive positioning */
+  bottom: 32.5vw; /* Responsive positioning */
   height: 60.1vw; /* Responsive height */
   width: 65.7vw; /* Responsive width */
 }
@@ -554,7 +554,7 @@ ul.achievementlist li::before {
 
 .under {
   position: relative;
-  bottom: 32vw; /* Responsive positioning */
+  bottom: 28vw; /* Responsive positioning */
   right: 40vw; /* Responsive positioning */
   height: min-content;
   width: fit-content;
@@ -578,7 +578,7 @@ ul.achievementlist li::before {
 
 .rise {
   position: relative;
-  bottom: 25vw; /* Responsive positioning */
+  bottom: 20vw; /* Responsive positioning */
 }
 .ready {
   height: 43vw;
