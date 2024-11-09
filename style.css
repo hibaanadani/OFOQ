@@ -228,7 +228,7 @@ ul {
 }
 .boothimages {
   flex-wrap: wrap;
-  gap: 1.2vw; /* Responsive gap */
+
   justify-content: space-between;
 }
 
@@ -236,6 +236,7 @@ ul {
 .boothimages2,
 .boothimages3 {
   display: flex;
+  gap: 0.5vw; /* Responsive gap */
 }
 
 /* Ensure the images scale down properly */
@@ -321,10 +322,10 @@ ul {
 }
 #orangebulb {
   position: relative;
-  right: 26vw; /* Responsive positioning */
-  bottom: 44vw; /* Responsive positioning */
-  width: 43.5vw; /* Responsive width */
-  height: 43.5vw; /* Responsive height */
+  right: 24vw; /* Responsive positioning */
+  bottom: 55vw; /* Responsive positioning */
+  width: 52vw; /* Responsive width */
+  height: 52vw; /* Responsive height */
 }
 .circleorange {
   margin: 1vw; /* Responsive margin */
@@ -364,7 +365,7 @@ ul {
 }
 
 .standout {
-  height: 125vw; /* Responsive height */
+  height: 135vw; /* Responsive height */
 }
 
 .standoutvision {
@@ -383,7 +384,7 @@ ul {
 #achievemntimage {
   position: relative;
   left: 8.5vw; /* Responsive positioning */
-  bottom: 33.5vw; /* Responsive positioning */
+  bottom: 43.5vw; /* Responsive positioning */
   height: 60.1vw; /* Responsive height */
   width: 65.7vw; /* Responsive width */
 }
@@ -398,8 +399,8 @@ ul.achievementlist li::before {
 
 #rotate {
   position: relative;
-  right: 45vw; /* Responsive positioning */
-  bottom: 60vw; /* Responsive positioning */
+  right: 44vw; /* Responsive positioning */
+  bottom: 77vw; /* Responsive positioning */
   transform: rotate(270deg);
   width: fit-content;
 }
@@ -525,10 +526,12 @@ ul.achievementlist li::before {
   position: relative;
   bottom: 10vw; /* Responsive positioning */
 }
-
+.bulkimages {
+  height: 90vw;
+}
 .textunder {
   position: relative;
-  bottom: 65.5vw; /* Responsive positioning */
+  bottom: 63.5vw; /* Responsive positioning */
   left: 22.5vw; /* Responsive positioning */
 }
 
