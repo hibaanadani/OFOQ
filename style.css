@@ -155,7 +155,7 @@ ul {
   top: -4.5vw; /* Responsive positioning */
   right: 5vw; /* Responsive positioning */
   width: 40vw; /* Responsive width */
-  height: 33vw; /* Responsive height */
+  height: 35vw; /* Responsive height */
 }
 
 .takeoftitle {
@@ -165,8 +165,8 @@ ul {
 }
 
 .title {
-  font-size: 3.5vw; /* Responsive font size */
-  line-height: 3vw; /* Responsive line height */
+  font-size: 5vw; /* Responsive font size */
+  line-height: 3.5vw; /* Responsive line height */
   font-weight: bolder;
 }
 #seperator {
@@ -265,7 +265,7 @@ ul {
 .specialconsultaion1 {
   position: relative;
   z-index: 1;
-  bottom: 6.5vw; /* Responsive positioning */
+  bottom: 7vw; /* Responsive positioning */
   width: 100%; /* Make the image take up the full width of its container */
   max-width: 100%; /* Ensure it does not exceed its container's width */
 }
