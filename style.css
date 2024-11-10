@@ -318,12 +318,12 @@ ul {
   height: 45vw;
 }
 .diamondtriptext {
-  height: auto;
+  height: 40vw;
 }
 #orangebulb {
   position: relative;
   right: 24vw; /* Responsive positioning */
-  bottom: 45vw; /* Responsive positioning */
+  bottom: 50vw; /* Responsive positioning */
   width: 50vw; /* Responsive width */
   height: 50vw; /* Responsive height */
 }
@@ -369,7 +369,7 @@ ul {
 }
 
 .standoutvision {
-  margin-top: 1vw; /* Responsive margin */
+  margin-top: 6vw; /* Responsive margin */
   display: flex;
 }
 .achievements {
@@ -583,7 +583,7 @@ ul.achievementlist li::before {
   bottom: 20vw; /* Responsive positioning */
 }
 .ready {
-  height: 43vw;
+  height: 50vw;
 }
 footer {
   background: none;
