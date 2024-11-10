@@ -315,7 +315,7 @@ ul {
   background-image: url(visuals/bluebulb.png);
   background-repeat: no-repeat;
   background-size: contain;
-  height: 52vw;
+  height: 45vw;
 }
 .diamondtriptext {
   height: auto;
@@ -323,7 +323,7 @@ ul {
 #orangebulb {
   position: relative;
   right: 24vw; /* Responsive positioning */
-  bottom: 55vw; /* Responsive positioning */
+  bottom: 45vw; /* Responsive positioning */
   width: 52vw; /* Responsive width */
   height: 52vw; /* Responsive height */
 }
@@ -384,7 +384,7 @@ ul {
 #achievemntimage {
   position: relative;
   left: 8.5vw; /* Responsive positioning */
-  bottom: 43.5vw; /* Responsive positioning */
+  bottom: 38.5vw; /* Responsive positioning */
   height: 60.1vw; /* Responsive height */
   width: 65.7vw; /* Responsive width */
 }
@@ -400,7 +400,7 @@ ul.achievementlist li::before {
 #rotate {
   position: relative;
   right: 44vw; /* Responsive positioning */
-  bottom: 77vw; /* Responsive positioning */
+  bottom: 65vw; /* Responsive positioning */
   transform: rotate(270deg);
   width: fit-content;
 }
@@ -526,9 +526,9 @@ ul.achievementlist li::before {
   position: relative;
   bottom: 10vw; /* Responsive positioning */
 }
-.bulkimages {
+/* .bulkimages {
   height: 90vw;
-}
+} */
 .textunder {
   position: relative;
   bottom: 63.5vw; /* Responsive positioning */
@@ -556,7 +556,7 @@ ul.achievementlist li::before {
 
 .under {
   position: relative;
-  bottom: 32vw; /* Responsive positioning */
+  bottom: 28vw; /* Responsive positioning */
   right: 40vw; /* Responsive positioning */
   height: min-content;
   width: fit-content;
