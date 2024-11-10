@@ -511,13 +511,13 @@ ul.achievementlist li::before {
 }
 
 #imageschunk {
-  width: 82vw; /* Responsive width */
+  width: 100%; /* Responsive width */
   position: relative;
   bottom: 25vw; /* Responsive positioning */
 }
 
 .imageschunk {
-  height: 330vw; /* Adjust height if needed */
+  height: 400vw; /* Adjust height if needed */
 }
 
 #hard1 {
@@ -531,16 +531,16 @@ ul.achievementlist li::before {
 } */
 .textunder {
   position: relative;
-  bottom: 62vw; /* Responsive positioning */
-  left: 22.5vw; /* Responsive positioning */
+  bottom: 72vw; /* Responsive positioning */
+  left: 25.5vw; /* Responsive positioning */
 }
 
 .textabove {
   position: relative;
   width: 25vw; /* Responsive width */
   height: 20vw; /* Responsive height */
-  top: 41vw; /* Responsive positioning */
-  right: 19.5vw !important; /* Responsive positioning */
+  top: 53vw; /* Responsive positioning */
+  right: 23.5vw !important; /* Responsive positioning */
 }
 
 .textabove p {
